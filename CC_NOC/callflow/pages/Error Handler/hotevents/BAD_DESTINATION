@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<hotevent id="Element@31089364:1482173080560" name="BAD_DESTINATION" version="6.0.1">
+<config>
+<event name="error.connection.baddestination">
+<has_exit_state/>
+</event>
+</config>
+</hotevent>

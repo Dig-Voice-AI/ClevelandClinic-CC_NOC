@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<action_element id="Element@2883316:1482173080560" name="IncBadDestErrorCount" version="6.0.1">
+<config>
+<log>
+<data create_when="After" name="baddestcount=">{Data.Element.IncBadDestErrorCount.count}</data>
+</log>
+<settings>
+<setting name="initial">0</setting>
+<setting name="type">increment</setting>
+<setting name="step">1</setting>
+</settings>
+</config>
+</action_element>

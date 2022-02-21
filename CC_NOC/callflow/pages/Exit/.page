@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page id="Page@19770783:1481145969925" name="Exit" version="6.0.1">
+<element height="50" id="Element@9447030:1481561541991" name="CVP Subdialog Return" src="com.audium.server.voiceElement.internal.CiscoSubdialogReturnElement" type="Subdialog Return" width="166" x="52" y="391">
+<exit_states>
+<exit_state name="done"/>
+</exit_states>
+</element>
+<element height="50" id="Element@7026605:1489158743879" name="Transfer" type="Page Entry" width="93" x="88" y="46">
+<exit_states>
+<exit_state name="next" target="Element@10582134:1504652973893"/>
+</exit_states>
+</element>
+<element height="46" id="Element@19620854:1498629957387" name="play_1010 GoodBye" src="com.audium.server.voiceElement.audio.MAudio" type="Voice Element" width="152" x="233" y="132">
+<exit_states>
+<exit_state name="done" target="Element@10253904:1504633637508"/>
+</exit_states>
+</element>
+<element height="50" id="Element@22259089:1498629969059" name="EndCall" type="Page Entry" width="90" x="264" y="46">
+<exit_states>
+<exit_state name="next" target="Element@19620854:1498629957387"/>
+</exit_states>
+</element>
+<element height="46" id="Element@10253904:1504633637508" name="1010 Set_TF_Disconnect" src="com.audium.server.action.counter.CounterAction" type="Action Element" width="175" x="221" y="216">
+<exit_states>
+<exit_state name="done" target="Element@10582134:1504652973893"/>
+</exit_states>
+</element>
+<element height="46" id="Element@10582134:1504652973893" name="Set_VXML3" src="com.audium.server.action.counter.CounterAction" type="Action Element" width="110" x="80" y="288">
+<exit_states>
+<exit_state name="done" target="Element@9447030:1481561541991"/>
+</exit_states>
+</element>
+</page>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<voice_element id="Element@32340238:1498628206050" name="eForm_1003 Flu Option" version="6.0.1">
+<config>
+<settings>
+<setting name="inputmode">dtmf</setting>
+<setting name="noinput_timeout">5s</setting>
+<setting name="max_noinput_count">2</setting>
+<setting name="max_nomatch_count">2</setting>
+<setting name="dtmf_grammar">{Data.Session.s_DEFAULT_GRAMMAR_PATH}1003_FluOption_dtmf.xml</setting>
+<setting name="dtmf_keypress"/>
+<setting name="help_dtmf_keypress"/>
+<setting name="modal">false</setting>
+<setting name="field_name">foundation_fld</setting>
+<setting name="slot_name"/>
+<setting name="slot_element_data"/>
+<setting name="secure_logging">false</setting>
+<setting name="maxRetryCount">1</setting>
+<setting name="globalRetryCounterSVN"/>
+<setting name="DTMFOnlyOnLastRetry">YES</setting>
+<setting name="Validator">None</setting>
+<setting name="EnableReporting">YES</setting>
+<setting name="ExcludeInterpretations">NO</setting>
+<setting name="EnableRepeat">NO</setting>
+</settings>
+<audio>
+<audio_group barge_in="true" count="1" name="initial_audio_group">
+<audio_item name="1003-001" type="static">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="{Data.Session.s_audioPrefix}1003-001.wav"><![CDATA[For information on flu symptoms and remedies, press 1. To speak to a nurse on call, press 2.]]></static>
+</audio_item_config>
+</audio_item>
+</audio_group>
+<audio_group barge_in="true" count="1" name="nomatch_audio_group">
+<audio_item name="1003-101" type="static">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="{Data.Session.s_audioPrefix}1003-101.wav"><![CDATA[To hear information from a Cleveland Clinic Physician about the flu, including symptoms, what to do if you have it, and how to prevent it, press 1.  To transfer to a registered nurse, press 2.]]></static>
+</audio_item_config>
+</audio_item>
+</audio_group>
+<audio_group barge_in="true" count="1" name="noinput_audio_group">
+<audio_item name="1003-101" type="static">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="{Data.Session.s_audioPrefix}1003-101.wav"><![CDATA[To hear information from a Cleveland Clinic Physician about the flu, including symptoms, what to do if you have it, and how to prevent it, press 1.  To transfer to a registered nurse, press 2.]]></static>
+</audio_item_config>
+</audio_item>
+</audio_group>
+</audio>
+<session_data>
+<data create_when="After" name="s_OptionID">{Data.Element.eForm_1003 Flu Option.value}</data>
+<data create_when="Before" name="s_MenuID">eForm_1003 Flu Option</data>
+</session_data>
+</config>
+</voice_element>

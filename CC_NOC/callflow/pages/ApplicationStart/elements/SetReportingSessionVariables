@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<action_element id="Element@18874281:1494406937377" name="SetReportingSessionVariables" version="6.0.1">
+<config>
+<log>
+<data create_when="After" name="s_audioPrefix is">{Data.Session.s_audioPrefix}</data>
+</log>
+<settings>
+<setting name="initial">0</setting>
+<setting name="type">increment</setting>
+<setting name="step">1</setting>
+</settings>
+<session_data>
+<data create_when="Before" name="s_L">en-US</data>
+<data create_when="Before" name="s_TF">Disconnect</data>
+<data create_when="Before" name="s_audioPrefix">{Data.Session.s_L}/{Data.Session.s_AppAudioPrefix}_{Data.Session.s_L}_</data>
+<data create_when="Before" name="AppName">{Data.Session.application}</data>
+</session_data>
+</config>
+</action_element>

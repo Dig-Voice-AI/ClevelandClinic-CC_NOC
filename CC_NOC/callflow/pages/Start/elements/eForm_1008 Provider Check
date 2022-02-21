@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<voice_element id="Element@5002751:1498624500042" name="eForm_1008 Provider Check" version="6.0.1">
+<config>
+<settings>
+<setting name="inputmode">both</setting>
+<setting name="noinput_timeout">5s</setting>
+<setting name="max_noinput_count">2</setting>
+<setting name="max_nomatch_count">2</setting>
+<setting name="confidence_level">0.40</setting>
+<setting name="voice_grammar">{Data.Session.s_DEFAULT_GRAMMAR_PATH}1008_ProviderCheck.xml</setting>
+<setting name="dtmf_grammar">{Data.Session.s_DEFAULT_GRAMMAR_PATH}1008_ProviderCheck_dtmf.xml</setting>
+<setting name="voice_keyword"/>
+<setting name="dtmf_keypress"/>
+<setting name="help_voice_keyword"/>
+<setting name="help_dtmf_keypress"/>
+<setting name="modal">false</setting>
+<setting name="field_name">foundation_fld</setting>
+<setting name="slot_name"/>
+<setting name="slot_element_data"/>
+<setting name="maxnbest">1</setting>
+<setting name="secure_logging">false</setting>
+<setting name="maxRetryCount">1</setting>
+<setting name="globalRetryCounterSVN"/>
+<setting name="DTMFOnlyOnLastRetry">YES</setting>
+<setting name="Validator">None</setting>
+<setting name="EnableReporting">YES</setting>
+<setting name="ExcludeInterpretations">NO</setting>
+<setting name="EnableRepeat">NO</setting>
+</settings>
+<audio>
+<audio_group barge_in="true" count="1" name="initial_audio_group">
+<audio_item name="1008-001" type="static">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="{Data.Session.s_audioPrefix}1008-001.wav"><![CDATA[Are you a provider?]]></static>
+</audio_item_config>
+</audio_item>
+</audio_group>
+<audio_group barge_in="true" count="1" name="nomatch_audio_group">
+<audio_item name="1008-101" type="static">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="{Data.Session.s_audioPrefix}1008-101.wav"><![CDATA[if you are physician or calling on behalf of a medical facility, press 1. Otherwise press 2.]]></static>
+</audio_item_config>
+</audio_item>
+</audio_group>
+<audio_group barge_in="true" count="1" name="noinput_audio_group">
+<audio_item name="1008-101" type="static">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="{Data.Session.s_audioPrefix}1008-101.wav"><![CDATA[if you are physician or calling on behalf of a medical facility, press 1. Otherwise press 2.
+]]></static>
+</audio_item_config>
+</audio_item>
+</audio_group>
+</audio>
+<session_data>
+<data create_when="Before" name="s_MenuID">eForm_1008 Provider Check</data>
+<data create_when="After" name="s_OptionID">{Data.Element.eForm_1008 Provider Check.value}</data>
+</session_data>
+</config>
+</voice_element>

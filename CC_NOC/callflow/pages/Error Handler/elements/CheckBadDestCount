@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<decision id="Element@7307983:1482173080560" name="CheckBadDestCount" version="6.0.1">
+<config>
+<source type="Decision Editor"><![CDATA[<knowledge_base>
+    <rule name="CheckBadDestCount" default_exit_state="ELSE">
+        <exit_state name="GT1" conjugate="and">
+            <number operator="greater">
+                <data>
+                    <element name="IncBadDestErrorCount" variable="count" />
+                </data>
+                <constant_number value="1" />
+            </number>
+        </exit_state>
+    </rule>
+</knowledge_base>]]></source>
+</config>
+</decision>

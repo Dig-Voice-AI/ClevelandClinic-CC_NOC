@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<action_element id="Element@29390901:1482173080560" name="SendAlert" version="6.0.1">
+<config>
+<settings>
+<setting name="MessageText">{Data.Session.s_errorMessage}</setting>
+<setting name="MessagePriority">100</setting>
+<setting name="LogToFile">YES</setting>
+<setting name="ImplementationClass">com.toolkit.monitoring.LegacySyslogLogEventImpl</setting>
+<setting name="ImplementationMethod">LogEvent</setting>
+<setting name="ComponentName">Syslog</setting>
+</settings>
+</config>
+</action_element>

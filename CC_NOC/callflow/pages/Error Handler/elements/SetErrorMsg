@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<action_element id="Element@28728995:1482173080560" name="SetErrorMsg" version="6.0.1">
+<config>
+<settings>
+<setting name="initial">0</setting>
+<setting name="type">increment</setting>
+<setting name="step">1</setting>
+</settings>
+<session_data>
+<data create_when="Before" name="s_errorMessage">{Data.Session.s_MonitoringKeyPrefix}_SEMANTIC_ERROR [{Data.Session.callid} {Data.Session.L}]</data>
+</session_data>
+</config>
+</action_element>

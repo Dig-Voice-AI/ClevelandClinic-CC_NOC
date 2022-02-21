@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<action_element id="Element@10253904:1504633637508" name="1010 Set_TF_Disconnect" version="6.0.1">
+<config>
+<settings>
+<setting name="initial">0</setting>
+<setting name="type">increment</setting>
+<setting name="step">1</setting>
+</settings>
+<session_data>
+<data create_when="Before" name="s_TF">Disconnect</data>
+</session_data>
+</config>
+</action_element>

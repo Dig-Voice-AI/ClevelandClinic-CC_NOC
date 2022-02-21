@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subdialog_return id="Element@9447030:1481561541991" name="CVP Subdialog Return" version="6.0.1">
+<config>
+<settings>
+<setting name="caller_input">OK</setting>
+<setting name="FromExtVXML0"/>
+<setting name="FromExtVXML1"/>
+<setting name="FromExtVXML2"/>
+<setting name="FromExtVXML3">{Data.Session.s_VXML3}</setting>
+</settings>
+</config>
+</subdialog_return>

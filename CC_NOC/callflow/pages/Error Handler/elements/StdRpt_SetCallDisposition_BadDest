@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<action_element id="Element@24519036:1482173080560" name="StdRpt_SetCallDisposition_BadDest" version="6.0.1">
+<config>
+<settings>
+<setting name="Mode">TRANSFER</setting>
+<setting name="TransferNumber"/>
+<setting name="TransferReason">NO_TRANSFERS</setting>
+</settings>
+</config>
+</action_element>

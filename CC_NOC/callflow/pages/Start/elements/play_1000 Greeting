@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<voice_element id="Element@6985326:1496135097624" name="play_1000 Greeting" version="6.0.1">
+<config>
+<audio>
+<audio_group barge_in="true" count="1" name="initial_audio_group">
+<audio_item name="1000-001" type="static">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="{Data.Session.s_audioPrefix}1000-001.wav"><![CDATA[You have reached Cleveland Clinic Nurse on Call.]]></static>
+</audio_item_config>
+</audio_item>
+<audio_item name="emergency" type="static">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="{Data.Session.s_audioPrefix}emergency.wav"><![CDATA[If this is a medical emergency, please hang up and dial 9 1 1 or proceed ot the nearest emergency department.]]></static>
+</audio_item_config>
+</audio_item>
+</audio_group>
+</audio>
+</config>
+</voice_element>

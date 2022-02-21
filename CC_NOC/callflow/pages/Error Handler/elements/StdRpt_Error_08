@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<action_element id="Element@9326412:1482173080560" name="StdRpt_Error_08" version="6.0.1">
+<config>
+<settings>
+<setting name="Mode">EXPLICIT</setting>
+<setting name="Error">BAD_DESTINATION</setting>
+</settings>
+</config>
+</action_element>

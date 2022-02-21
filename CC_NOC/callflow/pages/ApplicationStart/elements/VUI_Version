@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<action_element id="Element@28410353:1494406937377" name="VUI_Version" version="6.0.1">
+<config>
+<settings>
+<setting name="initial">0</setting>
+<setting name="type">increment</setting>
+<setting name="step">1</setting>
+</settings>
+<element_data>
+<data create_when="Before" name="VUI Version" storable="true" type="String">1.0 12/19/2017 11:00 AM EST -- Refresh deployment</data>
+</element_data>
+</config>
+</action_element>

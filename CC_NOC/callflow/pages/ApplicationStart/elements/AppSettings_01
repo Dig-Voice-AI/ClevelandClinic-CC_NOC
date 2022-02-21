@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<decision_element id="Element@14057346:1494406937377" name="AppSettings_01" version="6.0.1">
+<config>
+<settings>
+<setting name="SettingsType">COMPONENT</setting>
+<setting name="ComponentName">CC_NOC</setting>
+</settings>
+</config>
+</decision_element>
