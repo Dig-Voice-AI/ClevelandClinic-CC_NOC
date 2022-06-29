@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<action_element id="Element@30754871:1486047035495" name="ERROR Log Return Values" version="6.0.1">
+<action_element id="Element@553967115:1564429509286" name="Set_TF_NoInput" version="6.0.1">
 <config>
-<log>
-<data create_when="" name="VXML3">{Data.Session.s_TF}</data>
-</log>
 <settings>
 <setting name="initial">0</setting>
 <setting name="type">increment</setting>
 <setting name="step">1</setting>
 </settings>
+<session_data>
+<data create_when="After" name="s_TF">NoInput</data>
+</session_data>
 </config>
 </action_element>

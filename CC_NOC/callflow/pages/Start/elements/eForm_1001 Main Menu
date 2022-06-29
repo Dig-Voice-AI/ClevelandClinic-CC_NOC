@@ -4,8 +4,8 @@
 <settings>
 <setting name="inputmode">both</setting>
 <setting name="noinput_timeout">5s</setting>
-<setting name="max_noinput_count">2</setting>
-<setting name="max_nomatch_count">2</setting>
+<setting name="max_noinput_count">4</setting>
+<setting name="max_nomatch_count">4</setting>
 <setting name="confidence_level">0.40</setting>
 <setting name="voice_grammar">{Data.Session.s_DEFAULT_GRAMMAR_PATH}1001_MainMenu.xml</setting>
 <setting name="dtmf_grammar">{Data.Session.s_DEFAULT_GRAMMAR_PATH}1001_MainMenu_dtmf.xml</setting>
@@ -19,7 +19,7 @@
 <setting name="slot_element_data"/>
 <setting name="maxnbest">1</setting>
 <setting name="secure_logging">false</setting>
-<setting name="maxRetryCount">2</setting>
+<setting name="maxRetryCount">4</setting>
 <setting name="globalRetryCounterSVN"/>
 <setting name="DTMFOnlyOnLastRetry">YES</setting>
 <setting name="Validator">None</setting>

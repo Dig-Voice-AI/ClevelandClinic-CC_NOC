@@ -15,6 +15,12 @@
 <static default_audio_path="true" uri="{Data.Session.s_audioPrefix}emergency.wav"><![CDATA[If this is a medical emergency, please hang up and dial 9 1 1 or proceed ot the nearest emergency department.]]></static>
 </audio_item_config>
 </audio_item>
+<audio_item name="seasonal" type="static">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="{Data.Session.s_audioPrefix}covidvaccine.wav"><![CDATA[For questions about the covid 19 vaccine, vist Cleveland Clinics covid 19 vaccine website at Cleveland Clinic dot org slash covid vaccine for the latest information. Please keep in mind the vaccine may not be widely available for a few more months.]]></static>
+</audio_item_config>
+</audio_item>
 </audio_group>
 </audio>
 </config>

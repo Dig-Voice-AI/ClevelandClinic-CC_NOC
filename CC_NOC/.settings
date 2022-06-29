@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project_settings version="6.0.1">
 <general_settings>
-<deploy_version>4.1</deploy_version>
+<deploy_version>10.5</deploy_version>
 <maintainer>Daryl, Nasreen</maintainer>
 <language/>
 <encoding/>
 <subdialog>true</subdialog>
 <session_timeout>5</session_timeout>
-<gateway>cisco_osr_03</gateway>
+<gateway>cisco_nuance_02</gateway>
 <loggers>
 <logger class="com.audium.logger.application.error.ApplicationErrorLogger" enforce_call_event_order="false" name="ErrorLog">
 <config_file name="ErrorLogConfig.xml"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>

@@ -20,8 +20,9 @@
 <exit_state name="done" target="Element@14057346:1494406937377"/>
 </exit_states>
 </element>
-<element height="50" id="Element@30000470:1494406937377" type="Page Connector" width="181" x="307" y="348">
-<page_connector target="Element@186704:1494394168875">Start</page_connector>
+<element height="50" id="Element@30000470:1494406937377" name="Start" type="Page Connector" width="181" x="307" y="348">
+<page_connector target="Element@186704:1494394168875">Start<config/>
+</page_connector>
 </element>
 <element height="50" id="Element@14057346:1494406937377" name="AppSettings_01" src="com.toolkit.cvpvxml.actionelement.AppSettings" type="Decision Element" width="153" x="321" y="-72">
 <exit_states>
@@ -29,8 +30,9 @@
 <exit_state name="SUCCESS" target="Element@5064134:1494406937377"/>
 </exit_states>
 </element>
-<element height="50" id="Element@25054359:1494406937377" type="Page Connector" width="110" x="705" y="29">
-<page_connector target="Element@7026605:1489158743879">Transfer</page_connector>
+<element height="50" id="Element@25054359:1494406937377" name="Transfer" type="Page Connector" width="110" x="705" y="29">
+<page_connector target="Element@7026605:1489158743879">Transfer<config/>
+</page_connector>
 </element>
 <element height="50" id="Element@18874281:1494406937377" name="SetReportingSessionVariables" src="com.audium.server.action.counter.CounterAction" type="Action Element" width="247" x="274" y="241">
 <exit_states>

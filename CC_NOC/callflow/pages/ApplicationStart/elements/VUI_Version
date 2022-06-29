@@ -7,7 +7,7 @@
 <setting name="step">1</setting>
 </settings>
 <element_data>
-<data create_when="Before" name="VUI Version" storable="true" type="String">1.0 12/19/2017 11:00 AM EST -- Refresh deployment</data>
+<data create_when="Before" name="VUI Version" storable="true" type="String">1.1 12/23/2020 2PM ET -- Prompt Refresh</data>
 </element_data>
 </config>
 </action_element>
